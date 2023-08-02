@@ -1,0 +1,21 @@
+.textfield {
+  width: 100%;
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-size: 1.2rem;
+  outline: none;
+  background: rgba(0, 0, 0, 0.8);
+  transition: all 0.2s;
+}
+
+.textfield:focus {
+  background: rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (min-width: 664px) {
+  .textfield {
+    width: 640px;
+  }
+}

@@ -1,0 +1,25 @@
+.button {
+  width: 100%;
+  font-size: 1rem;
+  padding: 6px 20px;
+  border-radius: 9999px;
+  border: none;
+  outline: none;
+  background: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.button:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.disabled {
+  color: gray !important;
+}
+
+@media screen and (min-width: 768px) {
+  .button {
+    width: 320px;
+  }
+}

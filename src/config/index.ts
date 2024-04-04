@@ -5,6 +5,6 @@ export const properties = [
   ["environment", "opposite"],
   ["century", "opposite"],
   ['action', 'opposite'],
-  ['tool', 'opposite'],
-  ["eye", "open"]  
+  ["eye", "open"],
+  ['tool', 'opposite']
 ]
